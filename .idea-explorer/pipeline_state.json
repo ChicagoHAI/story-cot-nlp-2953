@@ -2,17 +2,28 @@
   "created_at": "2025-11-23T23:50:19.618206",
   "stages": {
     "resource_finder": {
-      "status": "failed",
+      "status": "completed",
       "started_at": "2025-11-23T23:50:19.618875",
-      "completed_at": "2025-11-24T00:03:31.118218",
-      "success": false,
+      "completed_at": "2025-11-24T00:38:46.281595",
+      "success": true,
       "outputs": {
-        "papers_dir": "/data/hypogenicai/workspaces/story-cot-nlp-2953/papers",
-        "datasets_dir": "/data/hypogenicai/workspaces/story-cot-nlp-2953/datasets",
-        "code_dir": "/data/hypogenicai/workspaces/story-cot-nlp-2953/code"
+        "skipped": true
+      }
+    },
+    "experiment_runner": {
+      "status": "completed",
+      "started_at": "2025-11-24T00:38:46.282034",
+      "completed_at": "2025-11-24T01:31:20.859219",
+      "success": true,
+      "outputs": {
+        "success": true,
+        "return_code": 0,
+        "elapsed_time": 3154.5623264312744,
+        "log_file": "/data/hypogenicai/workspaces/story-cot-nlp-2953/logs/execution_claude.log"
       }
     }
   },
   "current_stage": null,
-  "completed": false
+  "completed": true,
+  "completed_at": "2025-11-24T01:31:20.859754"
 }

@@ -1,16 +1,15 @@
 {
-  "success": false,
+  "success": true,
   "stages": {
     "resource_finder": {
-      "success": false,
-      "completion_marker": null,
-      "outputs": {
-        "papers_dir": "/data/hypogenicai/workspaces/story-cot-nlp-2953/papers",
-        "datasets_dir": "/data/hypogenicai/workspaces/story-cot-nlp-2953/datasets",
-        "code_dir": "/data/hypogenicai/workspaces/story-cot-nlp-2953/code"
-      },
-      "log_file": "/data/hypogenicai/workspaces/story-cot-nlp-2953/logs/resource_finder_claude.log",
-      "elapsed_time": 791.4984018802643
+      "success": true,
+      "skipped": true
+    },
+    "experiment_runner": {
+      "success": true,
+      "return_code": 0,
+      "elapsed_time": 3154.5623264312744,
+      "log_file": "/data/hypogenicai/workspaces/story-cot-nlp-2953/logs/execution_claude.log"
     }
   },
   "work_dir": "/data/hypogenicai/workspaces/story-cot-nlp-2953"

@@ -1,0 +1,28 @@
+{
+  "dataset": "JEEBench Physics",
+  "sample_size": 30,
+  "total_physics": 123,
+  "model": "GPT-4",
+  "results": {
+    "Zero-shot": {
+      "accuracy": 13.333333333333334,
+      "correct": 4,
+      "total": 30
+    },
+    "Zero-shot CoT": {
+      "accuracy": 10.0,
+      "correct": 3,
+      "total": 30
+    },
+    "Story of Thought": {
+      "accuracy": 16.666666666666664,
+      "correct": 5,
+      "total": 30
+    },
+    "Memory Recall": {
+      "accuracy": 16.666666666666664,
+      "correct": 5,
+      "total": 30
+    }
+  }
+}
